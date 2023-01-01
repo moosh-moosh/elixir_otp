@@ -2,4 +2,4 @@
 
 * What is this?
 
-Working through the book [[https://pragprog.com/titles/jgotp/designing-elixir-systems-with-otp/][Designing Elixir Systems with OTP: Write Highly Scalable, Self-Healing Software].
+Working through the book [[https://pragprog.com/titles/jgotp/designing-elixir-systems-with-otp/][Designing Elixir Systems with OTP: Write Highly Scalable, Self-Healing Software]].
