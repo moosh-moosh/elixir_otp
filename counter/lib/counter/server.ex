@@ -21,6 +21,11 @@ defmodule Counter.Server do
   def listen(count) do
     receive do
       {:tick, _pid} ->
+        # Value of incrementing count is returned by listen
+        # and then ends up as the `new_value` in run, which then
+        # recursively calls `listen` again.
+        #
+        # And so the loop continues
         Counter.Core.inc(count)
 
       {:state, pid} ->
