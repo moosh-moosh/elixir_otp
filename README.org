@@ -1,4 +1,4 @@
-#+title: Readme
+#+title: Elixir OTP
 
 * What is this?
 
